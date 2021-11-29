@@ -6,7 +6,7 @@ dotenv.config();
 // Récupère le modèle Post
 const Post = require('../models/post');
 
-const url_base = process.env.URL + ":" + process.env.PORT;
+const url_base = process.env.URL;
 
 // Exemple HATOEAS pour une collection
 exports.getPosts = (req, res, next) => {
